@@ -1,0 +1,36 @@
+
+#black-part {
+    background-color: #000000;}
+  
+  #red-part {
+    background-color: #FF0000;}
+  #yellow-part {
+    background-color: #FFCC00;
+  }
+  
+  #whole {
+    width: 500px;
+  height: 300px;
+  
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-gap: 0px;
+  background-size: contain;
+  margin: auto;
+  background-color: gray;
+  
+  }
+  @media (max-width:500px) {
+    #whole{width:250px;
+    height:150px;}
+    }
+  
+  @media (max-width:250px) {
+    #whole{width:150px;
+    height:90px;}
+    }
+  
+  @media (max-width:150px) {
+    #whole{width:50px;
+    height:30px;}
+    }
